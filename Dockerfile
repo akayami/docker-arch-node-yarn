@@ -10,7 +10,7 @@ RUN pacman -S nodejs yarn --noconfirm
 
 RUN useradd -m user
 #RUN useradd -m hardbox
-#USER hardbox
+USER user
 #
 #RUN yarn global add hardbox hardbox-cli hardbox-session hardbox-passport hardbox-proxy hardbox-passport-local redis-mock
 #
